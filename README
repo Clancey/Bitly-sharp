@@ -7,7 +7,7 @@ Usage
 Shorten
 
 var api = new Bitly.Api("User name","Apikey");
-var shorUtl = api.Shorten("http://www.xamarin.com");
+var shortUtl = api.Shorten("http://www.xamarin.com");
 
 
 Shorten
