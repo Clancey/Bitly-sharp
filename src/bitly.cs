@@ -21,13 +21,13 @@ using System.Xml;
 
 namespace Bitly
 {
-	public class API
+	public class Api
 	{
 		private string username;
 		private string apiKey;
 		private string baseUrl = @"http://api.bit.ly/v3/{0}?login=&apiKey={1}&longUrl={2}&format={3}";
 		
-		public API (string username, string apikey)
+		public Api (string username, string apikey)
 		{
 			if(string.IsNullOrEmpty(apikey) || string.IsNullOrWhiteSpace(apikey))
 			throw new ArgumentNullException("key","A valid Bit.ly API key is required");
