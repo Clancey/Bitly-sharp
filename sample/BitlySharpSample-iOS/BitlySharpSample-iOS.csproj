@@ -70,10 +70,16 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="ViewControllers\RootViewController.cs" />
-    <Compile Include="..\..\..\src\bitly.cs">
+    <Compile Include="ViewControllers\BitlyViewController.cs" />
+    <Compile Include="..\..\src\bitly.cs">
       <Link>Bitly\bitly.cs</Link>
     </Compile>
-    <Compile Include="ViewControllers\BitlyViewController.cs" />
+    <Compile Include="..\Common\HttpEncoder.cs">
+      <Link>HttpEncoder.cs</Link>
+    </Compile>
+    <Compile Include="..\Common\HttpUtility.cs">
+      <Link>HttpUtility.cs</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
