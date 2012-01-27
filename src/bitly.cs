@@ -18,6 +18,7 @@ using System.Text;
 using System.Net;
 using System.IO;
 using System.Xml;
+using System.Web;
 
 namespace Bitly
 {
@@ -36,14 +37,14 @@ namespace Bitly
 			throw new ArgumentNullException("login", "A valid Bit.ly login is requied");
 			
 			this.username = username;
-			this.apiKey = apiKey;
+			this.apiKey = apikey;
 		}
 		
 		public string Shorten (string url)
 		{
 			if (string.IsNullOrEmpty(url) || string.IsNullOrWhiteSpace(url))
 				throw new ArgumentNullException("url", "A valid url must be provided");
-			return getValue(url,"shorten");
+			return getUrl(url,"shorten");
 		}
 
 		public string Expand (string url)
@@ -51,10 +52,10 @@ namespace Bitly
 			if (string.IsNullOrEmpty(url) || string.IsNullOrWhiteSpace(url))
 				throw new ArgumentNullException("url", "A valid url must be provided");
 			
-			return getValue(url,"expand");
+			return getUrl(url,"expand");
 		}
 		
-		private static string getUrl(string url,string type)
+		private string getUrl(string url,string type)
 		{
 			string output = string.Empty;
 			HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(string.Format(baseUrl,type,username,apiKey, HttpUtility.UrlEncode(url),"txt"));
