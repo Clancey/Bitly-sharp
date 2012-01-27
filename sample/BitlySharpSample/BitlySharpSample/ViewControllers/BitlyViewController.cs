@@ -23,8 +23,8 @@ namespace BitlySharpSample
 	public class BitlyViewController : DialogViewController
 	{
 		// Credentials go here.
-		const string USER_NAME = "anujbaba";
-		const string APIKEY = "R_b88b47858d0407a0505aa9854d5c203c";
+		const string USER_NAME = "";
+		const string APIKEY = "";
 		
 		private static Api _BitlyApi;
 		
