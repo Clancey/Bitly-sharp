@@ -74,12 +74,6 @@
     <Compile Include="..\..\src\bitly.cs">
       <Link>Bitly\bitly.cs</Link>
     </Compile>
-    <Compile Include="..\Common\HttpEncoder.cs">
-      <Link>HttpEncoder.cs</Link>
-    </Compile>
-    <Compile Include="..\Common\HttpUtility.cs">
-      <Link>HttpUtility.cs</Link>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

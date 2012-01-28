@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitlySharpSample-iOS", "BitlySharpSample-iOS\BitlySharpSample-iOS.csproj", "{32A1EDFE-2B3E-47B5-8877-9AF5FBADD70D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitlySharpSample.iOS", "BitlySharpSample.iOS\BitlySharpSample.iOS.csproj", "{32A1EDFE-2B3E-47B5-8877-9AF5FBADD70D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitlySharpSample-M4A", "BitlySharpSample-M4A\BitlySharpSample-M4A.csproj", "{D5965CEB-B861-4734-AEE1-FCCE539BFD58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitlySharpSample.Android", "BitlySharpSample.Android\BitlySharpSample.Android.csproj", "{D5965CEB-B861-4734-AEE1-FCCE539BFD58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

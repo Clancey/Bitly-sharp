@@ -7,7 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace BitlySharpSampleM4A
+namespace BitlySharpSample.Android
 {
 	[Activity (Label = "BitlySharpSample-M4A", MainLauncher = true)]
 	public class Activity1 : Activity

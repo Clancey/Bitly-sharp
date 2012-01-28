@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitly-sharp.iOS", "Bitly-sharp.iOS.csproj", "{0FDF181B-23CA-444B-84C5-FBE63506ADED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitly-sharp.Android", "Bitly-sharp.Android.csproj", "{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FDF181B-23CA-444B-84C5-FBE63506ADED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDF181B-23CA-444B-84C5-FBE63506ADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDF181B-23CA-444B-84C5-FBE63506ADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDF181B-23CA-444B-84C5-FBE63506ADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Bitly-sharp.iOS.csproj
+	EndGlobalSection
+EndGlobal
