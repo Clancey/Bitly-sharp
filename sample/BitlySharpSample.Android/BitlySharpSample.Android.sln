@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitlySharpSample.Android", "BitlySharpSample.Android.csproj", "{D5965CEB-B861-4734-AEE1-FCCE539BFD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bitly-sharp.Android", "..\..\src\Bitly-sharp.Android.csproj", "{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|iPhone.Build.0 = Release|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Release|iPhone.Build.0 = Release|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D5965CEB-B861-4734-AEE1-FCCE539BFD58}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BitlySharpSample.Android.csproj
+	EndGlobalSection
+EndGlobal
