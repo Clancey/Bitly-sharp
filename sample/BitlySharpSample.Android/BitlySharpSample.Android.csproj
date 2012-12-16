@@ -65,4 +65,10 @@
   <ItemGroup>
     <Folder Include="Bitly\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Bitly-sharp.Android.csproj">
+      <Project>{393C4AEF-879E-4EDF-89C0-C8FC12AEB755}</Project>
+      <Name>Bitly-sharp.Android</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
